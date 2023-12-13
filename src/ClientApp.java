@@ -18,7 +18,7 @@ public class ClientApp extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
-
+        //
         try {
             Socket clientSocket = new Socket("192.168.1.1", 5555);
 
